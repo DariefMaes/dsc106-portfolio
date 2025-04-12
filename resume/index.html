@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link href="../styles.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
         <ul>
           <li><a href="../index.html">Home</a></li>
           <li><a href="../projects/index.html">Projects</a></li>
-          <li><a href="./index.html">Resume</a></li>
+          <li><a class="current" href="./index.html">Resume</a></li>
           <li><a href="../contact/index.html">Contact</a></li>
           <li>
             <a href="https://github.com/DariefMaes" target="_blank">GitHub</a>
@@ -23,27 +24,27 @@
     </header>
     <section>
       <h2>Education</h2>
-      <article>
+      <article class="resume">
         <header>
           <h3>University of California, San Diego</h3>
+          <time datetime="2025-06">Jun 2025</time> (exp)
           <p>
             Bachelor of Science in Business Economics
             <br />
             Data Science Minor
           </p>
         </header>
-        <time datetime="2025-06">Jun 2025</time> (exp)
       </article>
     </section>
 
     <section>
       <h2>Experience</h2>
-      <article>
+      <article class="resume">
         <header>
           <h3>Chief AI Officer</h3>
           <p>Lovemail</p>
         </header>
-        <time datetime="2025-01">Jan 2025</time> - Present
+        <time datetime="2025-01">Jan 2025</time>
         <ul>
           <li>
             Implemented a secure, on-device machine learning model which
@@ -56,7 +57,7 @@
           </li>
         </ul>
       </article>
-      <article>
+      <article class="resume">
         <header>
           <h3>Co-Founder</h3>
           <p>Taskified</p>
@@ -82,22 +83,28 @@
       </article>
     </section>
     <section>
-      <h2>Achievements</h2>
-      <ul>
-        <li>Socrates International Honors Society Member.</li>
-        <li>Pi Kappa Delta Speech & Debate Nationals 6th place in Impromptu</li>
-        <li>
-          3rd Place at the National Student Data Corps Data Science Symposium
-        </li>
-      </ul>
+        <h2>Achievements</h2>
+        <article class="resume">
+            <ul>
+              <li>Socrates International Honors Society Member.</li>
+              <li>Pi Kappa Delta Speech & Debate Nationals 6th place in Impromptu</li>
+              <li>
+                3rd Place at the National Student Data Corps Data Science Symposium
+              </li>
+            </ul>
+
+        </article>
     </section>
     <section>
       <h2>Skills</h2>
-      <ul>
-        <li>Python, JavaScript, Swift</li>
-        <li>Machine Learning, Data Analysis</li>
-        <li>HTML, CSS, React</li>
-        <li>Git, GitHub</li>
-      </ul>
+      <article class="resume">
+
+          <ul>
+            <li>Python, JavaScript, Swift</li>
+            <li>Machine Learning, Data Analysis</li>
+            <li>HTML, CSS, React</li>
+            <li>Git, GitHub</li>
+          </ul>
+      </article>
   </body>
 </html>

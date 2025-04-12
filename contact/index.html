@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link href="../styles.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
@@ -11,7 +12,7 @@
         <li><a href="../index.html">Home</a></li>
         <li><a href="../projects/index.html">Projects</a></li>
         <li><a href="../resume/index.html">Resume</a></li>
-        <li><a href="./index.html">Contact</a></li>
+        <li><a class="current" href="./index.html">Contact</a></li>
         <li>
           <a href="https://github.com/DariefMaes" target="_blank">GitHub</a>
         </li>
@@ -28,19 +29,19 @@
 
         <input type="email" name="email" required />
       </label>
-      <br />
+
       <label
         >Subject:
 
         <input name="subject" required />
       </label>
-      <br />
+
       <label
         >Message:
 
         <textarea name="body" required></textarea>
       </label>
-      <br />
+
       <button>Send</button>
     </form>
   </body>

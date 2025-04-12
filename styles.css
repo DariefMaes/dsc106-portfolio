@@ -130,3 +130,14 @@ time {
   font-size: 0.8em;
   color: oklch(0.5 0.1 240);
 }
+
+.header-resume {
+  margin: auto;
+  width: fit-content;
+}
+
+section article div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

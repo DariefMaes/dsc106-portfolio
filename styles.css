@@ -85,6 +85,12 @@ form button {
   border: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  form input {
+    color: black;
+  }
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));

@@ -86,7 +86,8 @@ form button {
 }
 
 @media (prefers-color-scheme: dark) {
-  form input {
+  form input,
+  form textarea {
     color: black;
   }
 }

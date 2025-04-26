@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Indian Economic Research",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": 2024,
+    "description": "This project explores the use of machine learning to predict GDP growth for India. India's economy is projected to become the second largest economy in the world by 2075, according to Goldman Sachs. My model employs socioeconomic indicators such as education enrollment rates, public debt ratios, and consumption patterns to build a regression model for forecasting GDP. By identifying key features and understanding their correlations with GDP growth, this model provides insights into economic trends and policy planning."
+  },
+  {
+    "title": "Debate Analysis Tool",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "I started this project to help our team improve our debate performance. We have won 11 out of the last 13 tournaments attended. However, the team has been having a hard time identifying week points, due to the absence of a tool that can help us analyze our performance. This tool will help us identify trends in our performance, and help us improve our performance in future tournaments. On top of that, we are seeing an improvement in our competitor's performance. This tool can help us identify who our biggest competitors are, and how we can improve our performance to beat them."
+  },
+  {
+    "title": "Spillovers of Universities in Developing Countries",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "As a research assistant for this research lab, my primary focus is on analyzing data from Uganda. This research explores how the establishment of higher education institutions impacts surrounding communities, particularly in terms of socio-economic and demographic changes. Since the project spans multiple countries, I play a crucial role in thoroughly exploring and adapting the data to account for country-specific differences, ensuring the analysis remains accurate and contextually relevant."
+  },
+  {
+    "title": "Bloomberg API Analysis",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "During my internship at Auréus in Amsterdam, I worked on analyzing and optimizing investment portfolios using a combination of Excel and Python alongside the Bloomberg API. My primary focus was to evaluate the risk and performance of a specific portfolio, identifying its strengths and weaknesses. By leveraging advanced tools and methodologies, I contributed to a restructuring of the portfolio to make it more forward-looking and to reduce its beta, aligning it with long-term strategic goals."
+  },
+  {
+    "title": "Taskified",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "As the co-founder of Taskified, I developed an AI-powered email client designed to integrate seamlessly with Google Calendar and Gmail. The primary goal of Taskified is to automate inbox management, enabling users to categorize emails, create actionable tasks, and prioritize their schedules efficiently and automatically. By leveraging AI models and a user-friendly interface, Taskified aims to redefine how professionals handle their emails and tasks."
+  },
+  {
+    "title": "Dormit",
+    "year": 2022,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Dormit was a startup that I worked on as the lead developer, focused on solving a common problem for college students: getting groceries and snacks late at night. Operating on campus, Dormit delivered groceries and snacks until 2 a.m. using scooters, providing unparalleled convenience for students. With a strong focus on innovation and efficiency, our MVP generated $10,000 in revenue within the first two weeks, proving the demand for such a service."
+  },
+  {
+    "title": "Argumentor",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "In October 2023, I developed Argumentor, a web application designed to support the UCSD Speech and Debate team, of which I am a member. Argumentor was a precursor to tools like Microsoft Copilot, providing an innovative way to integrate GPT-3.5 with real-time internet access. By leveraging advanced AI capabilities, I created a system that could format arguments consistently, generate logical reasoning, and include trustworthy sources to back up claims."
+  },
+  {
+    "title": "Ut consequatur error explicabo.",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "\n          Voluptates ea aliquam, laboriosam excepturi fuga obcaecati nihil iusto\n          quidem odit quisquam saepe! Magnam voluptate deserunt vel sequi rem\n          nihil inventore unde tempore, magni, nulla vitae amet a optio sit.\n        "
+  },
+  {
+    "title": "Cumque, facere. At, consequuntur!",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "\n          Dolor quisquam ratione quae nihil modi esse aspernatur natus tenetur\n          corrupti ex, ea reiciendis consequuntur asperiores maiores eos!\n          Adipisci esse veritatis ut molestiae modi voluptatem laudantium vero\n          quo repudiandae aliquam!\n        "
+  },
+  {
+    "title": "Quis a ex nisi!",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "\n          Mollitia repellendus magni, dignissimos molestias deleniti accusantium\n          perferendis iste, a cupiditate voluptas quod perspiciatis repellat\n          voluptates repudiandae soluta dicta fugit laudantium nisi quibusdam,\n          quo debitis tempora tenetur vero laborum. Nemo!\n        "
+  },
+  {
+    "title": "Animi, error. Ad, enim.",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "\n          Libero facere iste, esse consectetur architecto, animi dignissimos\n          error accusamus perferendis ipsa dolore atque! Eligendi, impedit quae.\n          Earum a, nulla odit architecto quibusdam quod eum accusantium!\n          Laudantium nemo consectetur sed.\n        "
+  },
+  {
+    "title": "Amet incidunt nulla voluptate?",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "\n          Illo pariatur porro ipsam ea nostrum autem voluptas corporis ex\n          voluptatum alias veniam blanditiis voluptate quae quaerat, dolores ut\n          corrupti veritatis a temporibus, ab eum fuga assumenda! Perferendis,\n          maiores illum.\n        "
+  }
+]

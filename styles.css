@@ -161,3 +161,18 @@ section article div {
   font-size: 80%;
   font-family: inherit;
 }
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+dt {
+  grid-row: 1;
+  font-weight: 200;
+}
+
+dd {
+  grid-row: 2;
+  font-weight: 600;
+}

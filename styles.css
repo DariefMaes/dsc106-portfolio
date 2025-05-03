@@ -176,3 +176,64 @@ dd {
   grid-row: 2;
   font-weight: 600;
 }
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  border: 1px solid var(--border-color);
+  padding: 1em;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.legend-item {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.legend span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  aspect-ratio: 1/1;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+.searchBar {
+  width: 100%;
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 10px;
+}

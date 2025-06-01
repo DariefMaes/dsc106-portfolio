@@ -277,6 +277,9 @@ circle {
   transition: 200ms;
   transform-origin: center;
   transform-box: fill-box;
+  @starting-style {
+    r: 0;
+  }
 }
 
 circle:hover {
@@ -299,4 +302,114 @@ circle:hover {
 
 circle.selected {
   fill: #ff6b6b;
+}
+
+.commit-progress {
+  width: 100%;
+}
+
+.commit-progress label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.commit-progress input {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.commit-progress time {
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+#files {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+
+  > div {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+    align-items: center;
+  }
+
+  dt {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    small {
+      font-size: 0.8em;
+      font-weight: 300;
+      color: gray;
+    }
+  }
+
+  dd {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: start;
+    gap: 0.15em;
+    padding-top: 0.6em;
+    margin-left: 0;
+  }
+}
+
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  background: var(--color);
+  border-radius: 50%;
+}
+
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 70vh;
+}
+
+#scrolly-2 {
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  height: 200vh;
+  > * {
+    flex: 1;
+  }
+}
+
+#file-story {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#file-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 70vh;
 }
